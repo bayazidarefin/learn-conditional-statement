@@ -2,14 +2,22 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    font-size: 80px;
+}
+.obtaind_mark{
+    font-size: 35px;
+}
 .input_box{
     text-align: center;
     margin-top: 100px;
     
 }
 .fail_massage{
+    font-size: 25px;
     color: red;
 }
 .pass_massage{
-    color: green;
+    font-size: 25px;
+    color: rgb(1, 95, 1);
 }

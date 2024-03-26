@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Result</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="input_box">
         <h1>Student Result</h1>
         <br>
-        <input type="text" placeholder="Enter Mark">
+        <input type="number" placeholder="Enter Mark" id="markInput">
         <br>
         <br>
-        <button>Submit</button>
+        <button onclick="submitNum()">Submit</button>
         <br>
         <br>
-        <p class="pass_massage">You are fail in this exam</p>
+        <h2 class="obtaind_mark">Obtaiend Mark : <span id="obtaindNum"></span></h2>
+        <br>
+        <p class="pass_massage" id="resultMassage"></p>
     </div>
     
 
